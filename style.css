@@ -24,8 +24,6 @@ body {
 
 .section__image > img {
     border-radius: 5px 5px 0 0;
-    height: 100%;
-    width: 100%;
 }
 
 .section__image-fon {
