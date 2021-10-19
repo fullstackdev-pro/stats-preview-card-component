@@ -3,27 +3,17 @@ body {
     margin: 0 auto;
 }
 
-    @import url('https://rsms.me/inter/inter.css');
-    html { 
-        font-family: 'Inter', sans-serif; 
-    }
-    @supports (font-variation-settings: normal) {
-    html {
-        font-family: 'Inter var', sans-serif; 
-        }
-    }
-
 .container {
     margin: 0 auto;
     width: 90%;
 }
 
-.section__image{
+.container > div {
     position: relative;
 }
 
-.section__image > img {
-    border-radius: 5px 5px 0 0;
+.header__image {
+    width: 100%;
 }
 
 .section__image-fon {
