@@ -12,7 +12,7 @@ body {
     position: relative;
 }
 
-.section__image {
+.section__image > img {
     width: 100%;
 }
 
@@ -24,7 +24,7 @@ body {
        -moz-opacity: 0.6; /* Mozilla 1.6 и ниже */
        -khtml-opacity: 0.6; /* Konqueror 3.1, Safari 1.1 */
         opacity: 0.6; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
-    height: 100%;
+    height: 99%;
 	position:absolute;
 	top:0px;
     width: 100%;
@@ -89,6 +89,7 @@ body {
     color: white;
     margin-top: 0.7rem;
     font-size: 12px; text-align: center; 
+    margin-top: 2rem;
 }
 .attribution a {
      color: hsl(228, 45%, 44%); 
@@ -99,13 +100,14 @@ body {
     padding-bottom: 1rem;
 }
 
-@media only screen and (min-width:1440px){
+@media only screen and (min-width:1024px){
     body {
         overflow-x: hidden;
     }
     
     .container {
-        padding: 6rem 7rem 2rem 7rem;
+        padding-top: 5rem;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         flex-direction: row-reverse;
@@ -114,7 +116,7 @@ body {
     }
 
     .information {
-        width: 40%;
+        width: 50%;
     }
 
     .section__title {
@@ -131,7 +133,7 @@ body {
         top: 2rem;
         position: relative;
         font-size: 1.5rem;
-       width: 90%;
+        width: 90%;
     }
 
     .statistics {
